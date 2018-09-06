@@ -1,9 +1,12 @@
+# 简介
+大家都知道Mybatis属于半自动ORM，在使用这个框架中，工作量最大的就是书写Mapping的映射文件，并且手动书写很容易出错，那么今天来介绍一下使用Mybatis-Generator来帮我们自动生成文件。如果大家有更好实现方式欢迎留言一起探讨哦，让大家开发起来更爽更便捷~~~
 
-![5.pic.jpg](https://upload-images.jianshu.io/upload_images/8122772-3bd5b40d0cb4e9f5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+*   源码地址
+    *   GitHub：[https://github.com/yundianzixun/mybatis-generator-1.35](https://github.com/yundianzixun/mybatis-generator-1.35)
+*   联盟公众号：IT实战联盟
+*   我们社区：[https://100boot.cn](https://100boot.cn)
 
-#### 前言
->大家都知道Mybatis属于半自动ORM，在使用这个框架中，工作量最大的就是书写Mapping的映射文件，并且手动书写很容易出错，那么今天来介绍一下使用Mybatis-Generator来帮我们自动生成文件。如果大家有更好实现方式欢迎留言一起探讨哦，让大家开发起来更爽更便捷~~~
->
+**小工具一枚，欢迎使用和Star支持，如使用过程中碰到问题，可以提出Issue，我会尽力完善该Starter**
 
 #### 第一步：下载mybatis-generator工具包
 GitHub地址：https://github.com/yundianzixun/mybatis-generator-1.35，如下图所示：
@@ -126,6 +129,9 @@ MyBatis Generator finished successfully.
 
 #### 第四步：将生成的文件放到自己项目中
 generatorConfig.xml 文件里面的项目路径配置好了 直接copy就可以用，如果没有配置好 那么生成的内容还需要手工修改。
+
+## 贡献者
+*   [IT实战联盟-Line](https://www.jianshu.com/u/283f93ada597)
 
 #### 关注我们
 更多精彩内容请关注“IT实战联盟”哦~~~
